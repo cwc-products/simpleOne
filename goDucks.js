@@ -1,14 +1,14 @@
 (function goDucks() {
-  this.messages = [()=>'hi'];
+  this.messages = [()=>'hi thar'];
 
   /*
    DO NOT EDIT BELOW THIS LINE
   */
-  return function quack() {
+  (function quack(context) {
     try{
-      this.messages.map((message) => console.log(message()));
+      context.messages.map((message) => console.log(message().split(/\s/)[0]));
     } catch (e) {
       console.error('quack');
     }
-  }
+  })(this);
 })();
