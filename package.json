@@ -1,0 +1,21 @@
+{
+  "author": "Christopher Cox <ccox2@uoregon.edu>",
+  "name": "simple-one",
+  "description": "An example js project to demonstrate continuous integration",
+  "version": "0.0.0",
+  "main": "./goDucks.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cwc-products/simpleOne.git"
+  },
+  "scripts": {
+    "test": "vows test/*.js"
+  },
+  "engines": {
+    "node": ">= 7"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "latest"
+  }
+}
