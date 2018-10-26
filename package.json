@@ -9,7 +9,8 @@
     "url": "git@github.com:cwc-products/simpleOne.git"
   },
   "scripts": {
-    "test": "vows test/*.js"
+    "test": "vows test/*.js",
+    "app": "node ./app.js"
   },
   "engines": {
     "node": ">= 7"
