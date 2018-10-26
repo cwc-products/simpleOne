@@ -1,2 +1,3 @@
 const { goDucks } = require('./go-ducks');
-console.log(goDucks.quack(),' TO');
+goDucks.appendMessages([() => ' TO']);
+console.log(goDucks.quack());
