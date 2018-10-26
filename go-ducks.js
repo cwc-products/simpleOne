@@ -15,7 +15,7 @@ exports.goDucks = (function goDucks(messages = []) {
           let logMessage = message().split(/\s/)[0];
           return logMessage;
         });
-        return newMessages.join(' ');
+        return newMessages.join(' ').trim();
       } catch (e) {
         console.error('quack');
       }
