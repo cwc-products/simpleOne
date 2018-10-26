@@ -1,4 +1,4 @@
-const consumables = [() => ''];
+const consumables = [() => 'SECRET'];
 
 /*
   DO NOT EDIT BELOW THIS LINE
