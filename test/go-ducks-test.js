@@ -9,8 +9,8 @@ vows.describe('serious-calculations').addBatch({
       return goDucks.quack();
     },
     'result should be valid': (topic) => {
-      assert.isArray(topic);
-      assert.equal(topic[0], 'five');
+      assert.isString(topic);
+      assert.equal(topic, 'five');
     }
   }
 }).export(module);

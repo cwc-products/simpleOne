@@ -1,10 +1,9 @@
-
-const consumables = [()=>'oh'];
+const consumables = [() => ''];
 
 /*
   DO NOT EDIT BELOW THIS LINE
 */
-exports.goDucks = (function goDucks(messages) {
+exports.goDucks = (function goDucks(messages = []) {
   this.messages = [...messages];
   return {
     appendMessages: (messages) => {
@@ -16,8 +15,7 @@ exports.goDucks = (function goDucks(messages) {
           let logMessage = message().split(/\s/)[0];
           return logMessage;
         });
-        console.log(newMessages);
-        return newMessages;
+        return newMessages.join(' ');
       } catch (e) {
         console.error('quack');
       }
