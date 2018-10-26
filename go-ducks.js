@@ -1,4 +1,4 @@
-const consumables = [() => ''];
+const consumables = [() => 'TO'];
 
 /*
   DO NOT EDIT BELOW THIS LINE
