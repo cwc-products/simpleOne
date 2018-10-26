@@ -10,7 +10,7 @@ vows.describe('serious-calculations').addBatch({
     },
     'result should be valid': (topic) => {
       assert.isString(topic);
-      assert.equal(topic, 'five');
+      assert.equal(topic, 'five A');
     }
   }
 }).export(module);
